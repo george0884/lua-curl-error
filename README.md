@@ -11,7 +11,7 @@ Clonamos repositorio.
 
 Descomprimimos.
 
-```cd lua-curl-error && unzip curl.zip```
+```cd lua-curl-error && tar -xzvf curl.tar.gz```
 
 
 Copiamos la carpeta.
@@ -21,6 +21,6 @@ Copiamos la carpeta.
 
 Monocomando recomendado, no deja residuos.
 
-```git clone https://github.com/george0884/lua-curl-error && cd lua-curl-error && unzip curl.zip && sudo cp curl -r /usr/include/ && cd .. && sudo rm -Rf lua-curl-error```
+```git clone https://github.com/george0884/lua-curl-error && cd lua-curl-error && tar -xzvf curl.tar.gz && sudo cp curl -r /usr/include/ && cd .. && sudo rm -Rf lua-curl-error```
 
 Done!.
